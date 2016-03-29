@@ -6,12 +6,27 @@ html {
 	font-family: "gothamlight", Helvetica, Arial, sans-serif;
 	}
 
+.fa {
+	color:#000000;
+	opacity: 0.5 ;
+}
+
+.footeranchor, .stdtxt {
+	padding: 10px 0px 0px 20px;
+}
+
+.footer, .std  {
+    color: #000000;
+	opacity: 0.5;
+	font-size: 14px;
+
+}
 /* Bootstrap overrides */
 /* top level for Navigator bar */
 .navbar,
 .navbar-default,
 .navbar-static-top {
-	width:auto;margin:20px 20px;  background-color:#0C3 ; 
+	width:auto;margin:20px 20px;  background-color:#FFF ; 
 	border: 1px solid transparent;
 	font-family: "gothamlight", Helvetica, Arial, sans-serif;
 	}
@@ -78,20 +93,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 
-.fa {
-	color:#000000;
-	opacity: 0.5 ;
-}
-.footeranchor {
-	padding: 10px 0px 0px 20px;
-}
-.footer, .std, .stdtxt {
-    color: #000000;
-	opacity: 0.5;
-	font-size: 16px;
-	padding: 10px	;
-
-}
 
 
 .content{color:#000; /* font:12px/1.4 "helvetica neue",arial,sans-serif; */ width:auto;margin:20px 20px; /* background-color:#33F */}
@@ -102,10 +103,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
  top: 80px;	}
 
 .cred{margin-top:20px;font-size:11px;}
-/* iphone 4, 5 landscape */
+
+/*************************/
+/* iPhone 4, 5 Portrait  */
+/*************************/
 @media (max-width: 320px) {
 .galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 270px;}
+    width: 255px;}
+.navbar-brand > img {
+	width:225px ; height:auto;}
 .container {
     margin-left: 15px;
     margin-right: 0px;
@@ -118,26 +124,72 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .navbar, .navbar-default, .navbar-static-top {
     width: auto;
     margin: 0px; }
+}
+
+/*************************/
+/* iPhone 6,6+ Portrait  */
+/*************************/
+@media (min-width: 321px) and (max-width: 414px) {
+.galleria-theme-folio .galleria-thumbnails .galleria-image {
+    width: 320px;}
 .navbar-brand > img {
 	width:281px ; height:60px }
+.container {
+    margin-left: 15px;
+    margin-right: 0px;
+    padding: 0px;
+	}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: -15px;
 }
-
-
-
-
-
-@media (min-width: 321px) and (max-width: 374px) {
+.navbar, .navbar-default, .navbar-static-top {
+    width: auto;
+    margin: 0px; }
+}
+/*************************/
+/* iPhone 4 Landscape    */
+/*************************/
+@media (min-width: 415px) and (max-width: 480px) {
 .galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 270px;}
+    width: 195px;}
 }
-@media (min-width: 375px) and (max-width: 413px) {
+/*************************/
+/* iPhone 5 Landscape    */
+/*************************/
+@media (min-width: 481px) and (max-width: 568px) {
 .galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 364px;}
+    width: 245px;}
 }
-@media (min-width: 414px)  {
+/*************************/
+/* small screens    */
+/*************************/
+@media (min-width: 569px) and (max-width: 600px) {	
 .galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 200px;}
+    width: 170px;}
 }
+/*************************/
+/* small screens    */
+/*************************/
+@media (min-width: 601px) and (max-width: 667px) {
+.galleria-theme-folio .galleria-thumbnails .galleria-image {
+    width: 190px;}
+}
+/*************************/
+/* iPhone 6,6+    */
+/*************************/
+@media (min-width: 668px) and (max-width: 1024px) {
+.galleria-theme-folio .galleria-thumbnails .galleria-image {
+    width: 210px;}
+}
+@media (min-width: 1025px) a {
+.navbar-static-top {
+	  background-color:#0C3 ; }	
+.galleria-theme-folio .galleria-thumbnails .galleria-image {
+    width: 210px;}
+}
+
+
 .galleria-theme-folio .galleria-close {
 	top: 00px;
 	right: 10px;

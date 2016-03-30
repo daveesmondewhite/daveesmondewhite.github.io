@@ -50,7 +50,7 @@ html {
 }
 /*this pushes the menu itself right aligned */
 .navbar-nav {
-	float: right; 
+	/*float: right; */
 	}
 /* these are styles for the menu / submenu text */
 .navbar-default .navbar-nav > li > a,

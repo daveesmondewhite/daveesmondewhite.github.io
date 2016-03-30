@@ -101,8 +101,7 @@
     
     <!-- Add the Footer -->
     <div class="footer">  
- 		<p class="stdtxt" >Rudolf&nbspStreet&nbspStudios&nbsp//&nbsp<wbr>dave&#64de&#8209w&#46photography&nbsp//&nbsp<wbr>+356&nbsp9938&nbsp2406 </p>
-    
+ 		<p class="stdtxt" >Rudolf&nbspStreet&nbspStudios&nbsp//&nbsp<wbr>dave&#64de&#8209w&#46photography&nbsp//&nbsp<wbr>+356&nbsp9938&nbsp2406 </p>    
         <a class="footeranchor" target="_blank" href="#">
          	<i class="fa fa-facebook-square fa-lg"></i></a> 
       	<a class="footeranchor" target="_blank" href="#"> 
@@ -114,7 +113,10 @@
 	<script>
     	Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
 <!--    	Galleria.loadTheme('galleria/themes/twelve/galleria.twelve.min.js');  -->
-	    Galleria.run('#galleria');
+		Galleria.configure({transition: 'fade', transitionSpeed:1000 });
+	    Galleria.run('#galleria', { 
+    autoplay: 7000 // will move forward every 7 seconds
+});
     </script>   
     
   </body>

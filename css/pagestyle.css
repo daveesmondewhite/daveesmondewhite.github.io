@@ -9,24 +9,24 @@ html {
 .fa {
 	color:#000000;
 	opacity: 0.5 ;
-}
-
+	}
 .footeranchor, .stdtxt {
-	padding: 10px 0px 0px 20px;
-}
+	font-family: "gothamlight", Helvetica, Arial, sans-serif;
 
+	padding: 10px 0px 0px 20px;
+	}
 .footer, .std  {
     color: #000000;
 	opacity: 0.5;
 	font-size: 14px;
-
-}
+	}
+	
 /* Bootstrap overrides */
 /* top level for Navigator bar */
 .navbar,
 .navbar-default,
 .navbar-static-top {
-	width:auto;margin:20px 20px;  background-color:#FFF ; 
+	width:auto;   background-color:#FFF ; 
 	border: 1px solid transparent;
 	font-family: "gothamlight", Helvetica, Arial, sans-serif;
 	}

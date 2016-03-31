@@ -5,17 +5,18 @@
 html {
 	font-family: "gothamlight", Helvetica, Arial, sans-serif;
 	}
-
+/* .footer {
+    visibility: hidden;
+} */
 .fa {
 	color:#000000;
 	opacity: 0.5 ;
 	}
-.footeranchor, .stdtxt {
-	font-family: "gothamlight", Helvetica, Arial, sans-serif;
-
+.footeranchor {
 	padding: 10px 0px 0px 20px;
 	}
-.footer, .std  {
+.stdtxt {
+    font-family: "gothamlight", Helvetica, Arial, sans-serif;
     color: #000000;
 	opacity: 0.5;
 	font-size: 14px;
@@ -50,7 +51,7 @@ html {
 }
 /*this pushes the menu itself right aligned */
 .navbar-nav {
-	/*float: right; */
+	float: right; 
 	}
 /* these are styles for the menu / submenu text */
 .navbar-default .navbar-nav > li > a,
@@ -93,128 +94,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 
-
-
-.content{color:#000; /* font:12px/1.4 "helvetica neue",arial,sans-serif; */ width:auto;margin:20px 20px; /* background-color:#33F */}
-#galleria{ width: auto; height: 600px; /* background-color:#0C3 */ }
-.galleria-theme-folio .galleria-stage {
-	/*background-color:#FC0;*/
-  background: transparent;  
- top: 80px;	}
-
-.cred{margin-top:20px;font-size:11px;}
-
-/*************************/
-/* iPhone 4, 5 Portrait  */
-/*************************/
-@media (max-width: 320px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 255px;}
-.navbar-brand > img {
-	width:225px ; height:auto;}
-.container {
-    margin-left: 15px;
-    margin-right: 0px;
-    padding: 0px;
-	}
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    margin-right: 0px;
-    margin-left: -15px;
-}
-.navbar, .navbar-default, .navbar-static-top {
-    width: auto;
-    margin: 0px; }
-}
-
-/*************************/
-/* iPhone 6,6+ Portrait  */
-/*************************/
-@media (min-width: 321px) and (max-width: 414px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 320px;}
-.navbar-brand > img {
-	width:281px ; height:60px }
-.container {
-    margin-left: 15px;
-    margin-right: 0px;
-    padding: 0px;
-	}
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    margin-right: 0px;
-    margin-left: -15px;
-}
-.navbar, .navbar-default, .navbar-static-top {
-    width: auto;
-    margin: 0px; }
-}
-/*************************/
-/* iPhone 4 Landscape    */
-/*************************/
-@media (min-width: 415px) and (max-width: 480px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 195px;}
-}
-/*************************/
-/* iPhone 5 Landscape    */
-/*************************/
-@media (min-width: 481px) and (max-width: 568px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 245px;}
-}
-/*************************/
-/* small screens    */
-/*************************/
-@media (min-width: 569px) and (max-width: 600px) {	
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 170px;}
-}
-/*************************/
-/* small screens    */
-/*************************/
-@media (min-width: 601px) and (max-width: 667px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 190px;}
-}
-/*************************/
-/* iPhone 6,6+    */
-/*************************/
-@media (min-width: 668px) and (max-width: 1024px) {
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 210px;}
-}
-@media (min-width: 1025px) a {
-.navbar-static-top {
-	  background-color:#0C3 ; }	
-.galleria-theme-folio .galleria-thumbnails .galleria-image {
-    width: 210px;}
-}
-
-
-.galleria-theme-folio .galleria-close {
-	top: 00px;
-	right: 10px;
-} 
-.galleria-theme-folio .galleria-close {
-    background: url(../images/close-neg.png) no-repeat 0 0;
-    background-image: url("../images/close-neg.png");
-    background-position-x: 0px;
-    background-position-y: 0px;
-    background-size: initial;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-	width: 50px;
-height: 50px;
-position: absolute;
-top: 0;
-right: 100;
-
-z-index: 100;
-cursor: pointer;
-}
 
  
 

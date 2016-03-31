@@ -5,26 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<style>
-	    #galleria{height:600px}    
-	</style>
+ 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-	<script src="galleria/galleria-1.4.2.working.js"></script>
-
-    <!-- bring in style Sheets -->
-    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
-	<link href="css/fontstyle.css" rel="stylesheet" type="text/css"  />
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" >
-    <link href="css/pagestyle.css" rel="stylesheet" type="text/css" >
-    <link href="css/galleria.css" rel="stylesheet" type="text/css" >
-   
-    <title>Dave Esmonde-White Photography</title>   
-
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>    
+     <!-- bring in style Sheets -->
+    <link href="../fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+	<link href="../css/fontstyle.css" rel="stylesheet" type="text/css"  />
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" >
+    <link href="../css/pagestyle.css" rel="stylesheet" type="text/css" >
+    <title>Dave Esmonde-White Photography:- Contact Me</title>   
+ 
   </head>
-  <body>
+<body>  
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container" >
           <div class="navbar-header">
@@ -35,7 +30,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="http://www.de-w.photography"><img src="images/logo/logo transparent.png"
+              <a class="navbar-brand" href="http://www.de-w.photography"><img src="../images/logo/logo transparent.png"
               	 width="281" height="60" alt="Dave Esmonde-White Photography"> 
                  </a>
             </div>
@@ -81,25 +76,39 @@
 
         </nav>
         
- 	<!-- Add the Galleria Setup -->       
-    <div class="content">
-        <div id="galleria">
- 	       <a href="images/gallery1/big/photo1.jpg"><img src="images/gallery1/thumb/photo1.jpg"></a>
- 	       <a href="images/gallery1/big/photo2.jpg"><img src="images/gallery1/thumb/photo2.jpg"></a>
- 	       <a href="images/gallery1/big/photo3.jpg"><img src="images/gallery1/thumb/photo3.jpg"></a>
- 	       <a href="images/gallery1/big/photo4.jpg"><img src="images/gallery1/thumb/photo4.jpg"></a>
- 	       <a href="images/gallery1/big/photo5.jpg"><img src="images/gallery1/thumb/photo5.jpg"></a>
- 	       <a href="images/gallery1/big/photo6.jpg"><img src="images/gallery1/thumb/photo6.jpg"></a>
- 	       <a href="images/gallery1/big/photo7.jpg"><img src="images/gallery1/thumb/photo7.jpg"></a>
- 	       <a href="images/gallery1/big/photo8.jpg"><img src="images/gallery1/thumb/photo8.jpg"></a>
- 	       <a href="images/gallery1/big/photo9.jpg"><img src="images/gallery1/thumb/photo9.jpg"></a>
- 	       <a href="images/gallery1/big/photo10.jpg"><img src="images/gallery1/thumb/photo10.jpg"></a>
- 	       <a href="images/gallery1/big/photo11.jpg"><img src="images/gallery1/thumb/photo11.jpg"></a>
- 	       <a href="images/gallery1/big/photo12.jpg"><img src="images/gallery1/thumb/photo12.jpg"></a>
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-md-6">
+  <p class="stdtxt" style=text-align:justify >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque metus in aliquam viverra. Maecenas at semper neque, sed semper sem. Quisque efficitur elit euismod nunc mollis faucibus. Vestibulum eget rhoncus elit. Phasellus nec pretium mauris. Vestibulum quis magna nec odio pellentesque ultricies ut sed lectus. Donec ac risus dolor.
+</p> 
 
-        </div>
+
+	<div id='gmap_canvas' style='height:300px;width:auto;padding: 10px 0px 0px 20px;'>
 	</div>
-    
+	<div>
+    	<small><a href="http://embedgooglemaps.com">									embed google maps							</a>
+        </small></div>
+        <div>
+        	<small><a href="http://freedirectorysubmissionsites.com/">link directories</a>
+            </small>
+            </div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+            </div>
+			<script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(35.9110081,14.502903999999944),mapTypeId: google.maps.MapTypeId.ROADMAP , styles:[{
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "saturation": -100 },
+      { "lightness": -3 },
+      { "gamma": 1 },
+      { "weight": 1 }
+    ]
+  }]};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.9110081,14.502903999999944)});infowindow = new google.maps.InfoWindow({content:'<strong>Dave Esmonde-White Photography</strong><br>Rudolf Street Studios<br>20 Rudolf Street<br> Sliema'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+ </div>
+  <div class="col-md-3">
+<p class="stdtxt" style=text-align:right> <strong>Dave Esmonde-White Photography</strong><br>
+20 Rudolf Street<br>
+Sliema<br> Malta <br> SLM1277<br>
+<a href="mailto:dave@de-w.photography">dave@de-w.photography</a></p>
+ </div>
       </div> 
     <!-- Add the Footer -->
     <div class="footer" style=padding:10px >  
@@ -110,20 +119,7 @@
       	 	<i class="fa fa-instagram fa-lg"></i></a>
       	<a class="footeranchor" target="_blank" href="https://twitter.com/Dave_EW"> 
         	<i class="fa fa-twitter-square fa-lg"></i></a>
-     </div>         
-       
-	<script>
-    	Galleria.loadTheme('galleria/themes/folio/galleria.folio.min.js');
-<!--    	Galleria.loadTheme('galleria/themes/twelve/galleria.twelve.min.js');  -->
-		Galleria.configure({transition: 'fade', transitionSpeed:1050 });
-	    Galleria.run('#galleria', { 
-    autoplay: 7000 // will move forward every 7 seconds
-	});
-	Galleria.on('lightbox_close', function(e) {
-    Galleria.log(this); // the gallery scope
-    console.log(e.imageTarget); // the currently active IMG element
-});
-    </script>   
-    
+     </div>        
+     
   </body>
-</html>
+</html>    

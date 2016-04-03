@@ -5,7 +5,7 @@
 
 
 .content{color:#000; /* font:12px/1.4 "helvetica neue",arial,sans-serif; */ margin:20px 20px; /* background-color:#33F */}
-#galleria{ width: auto; height: 600; /* background-color:#0C3 */ }
+#galleria{ width: auto; height: 600px; /* background-color:#0C3 */ }
 .galleria-theme-folio .galleria-stage {
 	/*background-color:#FC0;*/
   background: transparent;  
